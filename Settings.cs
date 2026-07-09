@@ -10,6 +10,8 @@ namespace AttributeFeats
     }
 
     [XmlType(Namespace = "AttributeFeats")]
+    [XmlRoot("AttributeFeatsSettings")]
+    [XmlType("AttributeFeatsSettings")]
     public class ModSettings : UnityModManager.ModSettings
     {
         public bool IncludeSelfInAttributeStack = false;
